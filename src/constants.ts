@@ -39,6 +39,7 @@ export const POSTS: Record<string, string> = {
   "3l7jhvhuhv52o": "kasumi",
   "3l7jhw4od542q": "rina",
   "3l7jhwzu2bz2y": "shioriko",
+  "3l7oxvw4qbk2w": "yuu",
 
   "3l7jihauvfj2b": "kaho",
   "3l7jiipi44c2z": "sayaka",
