@@ -1,0 +1,18 @@
+name: labeler
+services:
+  idol:
+    container_name: labeler-idol
+    build:
+      context: .
+    volumes:
+      - ./cursor.txt:/app/cursor.txt
+      - ./labels.db:/app/labels.db
+      - ./labels.db-shm:/app/labels.db-shm
+      - ./labels.db-wal:/app/labels.db-wal
+    networks:
+      - atproto
+
+networks:
+  atproto:
+    name: atproto
+    external: true
